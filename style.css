@@ -10,7 +10,7 @@
   color: #fff;
   display: flex;
   justify-content: space-between;
-  padding: 20px 70px 20px 70px;
+  padding: 20px 70px;
 }
 
 .navbar ul {
@@ -23,7 +23,7 @@
   text-decoration: none;
   color: #fff;
   padding: 30px 30px 30px 35px;
-  margin: 0 20px ;
+  margin: 0 20px;
 }
 
 h1 {
@@ -46,7 +46,7 @@ h1 {
   margin: 20px;
 }
 
-.section-image  img {
+.section-image img {
   max-width: 450px;
   padding: 0 20px 20px 15px;
 }
@@ -90,4 +90,269 @@ h2 {
 
 h3 {
   font-size: 30px;
+}
+
+@media screen and (max-width:480px) {
+  body {
+    width: 800px;
+  }
+
+  .navbar {
+    padding: 20px;
+  }
+
+  .navbar ul li a {
+    font-size: 34px;
+    padding: 10px;
+    margin: 0 10px;
+  }
+
+  h1 {
+    font-size: 45px;
+  }
+
+  .section1 {
+    display: block;
+    align-items: center;
+    margin-bottom: 70px;
+  }
+
+  .section-text {
+    padding: 15px 10px 20px 10px;
+    font-size: 20px;
+    max-width: 700px;
+    margin: 20px;
+  }
+
+  .p1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  .section-image img {
+    max-width: 650px;
+    padding: 0 20px 20px 10px;
+  }
+
+  .section1 .section-text h1 {
+    font-size: 64px;
+    margin-bottom: 20px;
+  }
+
+  .btn {
+    font-size: 36px;
+    padding: 25px 50px;
+    margin: 18px 0;
+    border-radius: 15px;
+    border: none;
+    background-color: orangered;
+    color: #fff;
+    font-size: 36px;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 60px;
+  }
+
+  .card-section {
+    display: block;
+    padding: 10px;
+    margin: 0 10px;
+  }
+
+  .card-section .cards img {
+    max-width: 650px;
+  }
+
+  h3 {
+    font-size: 64px;
+  }
+
+  .cp {
+    font-size: 48px;
+    padding-bottom: 20px;
+  }
+
+  .btn-2 {
+    font-size: 36px;
+    padding: 10px;
+  }
+}
+
+
+@media (min-width:481px) and (max-width:768px) {
+  body {
+    width: 900px;
+  }
+
+  .navbar {
+    padding: 30px;
+  }
+
+  .navbar ul li a {
+    font-size: 24px;
+    padding: 20px;
+    margin: 0 20px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  .section1 {
+    display: flex;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+
+  .section-text {
+    padding: 15px 10px 20px 0px;
+    font-size: 24px;
+    max-width: 500px;
+
+  }
+
+  .section-image img {
+    max-width: 400px;
+    padding: 0 10px 20px 10px;
+  }
+
+  .section1 .section-text h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+
+  .btn {
+    font-size: 23px;
+    padding: 25px 30px;
+    margin: 18px 0;
+    border-radius: 15px;
+    border: none;
+    background-color: orangered;
+    color: #fff;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .card-section {
+    flex-wrap: wrap;
+    padding: 0 10px;
+    gap: 5px;
+    justify-content: space-between;
+  }
+
+  .cards {
+    padding: 10px 20px 60px 10px;
+    margin: 0 10px;
+  }
+
+  .card-section .cards img {
+    max-width: 300px;
+  }
+
+  h3 {
+    font-size: 48px;
+  }
+
+  .cp {
+    font-size: 27px;
+    padding-bottom: 10px;
+  }
+
+  .btn-2 {
+    font-size: 24px;
+    padding: 10px;
+  }
+}
+
+
+@media (min-width:769px) and (max-width:1279px) {
+  body {
+    width: 100%;
+  }
+
+  .navbar {
+    padding: 30px;
+  }
+
+  .navbar ul li a {
+    font-size: 24px;
+    padding: 20px;
+    margin: 0 20px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  .section1 {
+    display: flex;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+
+  .section-text {
+    padding: 15px 10px 20px 0px;
+    font-size: 24px;
+    width: 900px;
+
+  }
+
+  .section-image img {
+    width: 300px;
+    padding: 0 10px 20px 10px;
+  }
+
+  .section1 .section-text h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+
+  .btn {
+    font-size: 20px;
+    padding: 20px 25px;
+    margin: 18px 0;
+    border-radius: 15px;
+    border: none;
+    background-color: orangered;
+    color: #fff;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .card-section {
+    flex-wrap: wrap;
+    padding: 0 10px;
+    justify-content: space-between;
+  }
+
+  .cards {
+    padding: 10px 0px 60px 10px;
+    margin: 0 10px;
+  }
+
+  .card-section .cards img {
+    width: 150px;
+  }
+
+  h3 {
+    font-size: 28px;
+  }
+
+  .cp {
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+
+  .btn-2 {
+    font-size: 18px;
+    padding: 10px;
+  }
 }
